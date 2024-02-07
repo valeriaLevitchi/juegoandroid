@@ -1,0 +1,37 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menuprincipal">
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="173dp"
+        android:layout_height="65dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:hint="introduce tu nombre" />
+
+    <EditText
+        android:id="@+id/dificultad"
+        android:layout_width="222dp"
+        android:layout_height="77dp"
+        android:layout_below="@id/nombre"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="introduce la dificultad" />
+
+    <Button
+        android:id="@+id/boton"
+        android:layout_width="130dp"
+        android:layout_height="89dp"
+        android:layout_below="@id/dificultad"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Start Game" />
+
+    <!-- Otros elementos de diseño de tu juego -->
+
+</RelativeLayout>
+
